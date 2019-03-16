@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  miniconda3:
+    build: .
+    image: hyphen/miniconda3:latest
