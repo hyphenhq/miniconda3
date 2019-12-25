@@ -58,3 +58,5 @@ RUN apk add --virtual .build-deps \
     | xargs -r apk info --installed \
     | sort -u)" && \
     apk add --virtual .rundeps $runDeps
+
+RUN conda install -c anaconda atlas
